@@ -36,6 +36,9 @@ public class HelloJobConfiguration {
                         // 내용기술
                         System.out.println("Step1 테스트");
 
+                        // Step 안 Tasklet은 무한 반복됨.
+                        // 그래서 return 문에
+                        // RepeatStatus을 사용해서 종료처리할 수 있음.
                         return RepeatStatus.FINISHED;
                     }
                 })
