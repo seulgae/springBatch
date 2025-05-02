@@ -1,4 +1,4 @@
-# Spring Batch Project 기술 증빙용
+# Spring Batch Project
 
 ## 프로젝트 생성 및 아키텍처 구성 업로드</br>
 Spring Boot 2.5.2 </br>
